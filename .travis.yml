@@ -4,9 +4,9 @@ before_install:
 deploy: 
   access_key_id: 
     secure: $AWS_ACCESS_KEY
-  app: docker-learn
+  app: docker-test
   bucket_name: elasticbeanstalk-ap-south-1-291779423517
-  env: DockerLearn-env
+  env: DockerTest-env
   provider: elasticbeanstalk
   region: ap-south-1
   secret_access_key: 
